@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>BasimMod</name>
+    <directory>BasimMod</directory>
+    <description>Play as Basim Ibn Ishaq from Assassin's Creed Mirage. Piercing tears, high speed, and a Smoke Bomb teleport ability.</description>
+    <version>0.1.0</version>
+    <visibility>Public</visibility>
+    <tag id="New Characters"/>
+</metadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    players.xml  –  BasimMod
+    Place this file at:  BasimMod/content/players.xml
+
+    PLACEHOLDER SPRITES
+    The game requires .png sprite sheets at the paths listed below.
+    Until your real art is ready, copy any existing character sheet from
+    the game's resources and rename it – the mod will at least launch.
+
+    Real files to create when you have art:
+        gfx/characters/basim.png          – character sprite sheet (2x2 cells, default Isaac layout)
+        gfx/characters/basim_head.png     – head sprite (used on the character-select screen)
+        gfx/ui/playername_basim.png       – name plate shown on the select screen
+-->
+<players>
+    <player
+        id="0"
+        name="Basim"
+        skin="gfx/characters/basim.png"
+        skin-alt="gfx/characters/basim.png"
+        portrait="gfx/ui/charactermenu/basim_portrait.png"
+        nameimage="gfx/ui/playername_basim.png"
+        hp="6"
+        canShoot="1"
+        extraanims="gfx/characters/basim.anm2"
+        root="resources/BasimMod/"
+        description="Agile Assassin. Piercing tears. Press Space for Smoke Bomb."
+    />
+</players>
