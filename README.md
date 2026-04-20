@@ -11,7 +11,7 @@ This mod introduces **Basim Ibn Ishaq** as a playable character in *The Binding 
 - **Piercing tears** – deal damage through multiple enemies in a line
 - **Smoke Bomb** – teleport a short distance and slow all nearby enemies
 
-> Placeholder sprites are currently in use. Drop your final art into the `gfx/` folder and update the paths in `content/players.xml` when ready.
+> **This release contains code only — no art assets are included.** You must supply your own sprites before the mod will run. See the [Art Assets](#art-assets) section below.
 
 ---
 
@@ -110,10 +110,24 @@ local SMOKE_BOMB = {
 
 ---
 
+## Art Assets
+
+**No art is included in this mod.** You must create or generate the following files and place them in the `gfx/` folder before the mod will run:
+
+| File | Size | Description |
+|------|------|-------------|
+| `gfx/characters/basim.png` | 128×64px | Character sprite sheet (4×2 frames) |
+| `gfx/characters/basim.anm2` | — | Animation definition (copy from Isaac resources) |
+| `gfx/ui/charactermenu/basim_portrait.png` | 202×308px | Character select portrait |
+| `gfx/ui/playername_basim.png` | 115×16px | Name plate shown on select screen |
+
+Once your art is ready, update the file paths in `content/players.xml` to match.
+
+---
+
 ## Notes
 
 - During testing, press **F1** to instantly reset the Smoke Bomb cooldown. Remove this before shipping.
-- Placeholder sprites must be replaced before publishing — copy any existing Isaac character sheet and rename it to get the mod loading while you work on art.
 - Stats are balanced for fun and can be freely adjusted in `main.lua`.
 
 ---
